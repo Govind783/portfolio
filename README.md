@@ -2,13 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://ibb.co/Bw7zYYD][img]https://i.ibb.co/TrnvNNX/githubimg.jpg">
-
-Built using:
-
-- Front-end library: React
-- CSS framework: React-bootstrap
-- CSS animations library: Animate.css
+My portfolio wesbite built using react and boootstrap.
 
 In the /personal-portfolio, you can run:
 
