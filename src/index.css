@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.w20rem {
+  width: 28rem !important;
+  height: 20rem;
+}
+
+.bubble {
+
+  width: 10rem !important;
+  height: 8rem !important;
+  position: relative;
+  /*  TO INVERT AN IMAGE   
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  */
+
+}
+
+.ccc {
+  max-width: 100% !important;
+  max-height: 100vh !important;
+}
+
+.speechHold {
+  max-width: 41% !important;
+  top: -32rem;
+  width: 26% !important;
+
+}
+
+.bubbleContentHold {
+  position: relative;
+  max-width: 11% !important;
+  top: -37.5rem;
+  left: 2rem;
+
+}
+
+.web {
+  height: 2rem !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+.airbnbIntro {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+
+.airbnbIntroHold {
+  max-width: 100 !important;
+  width: 100% !important;
+  position: relative;
+}
+
+.slick-prev,
+.slick-next {
+  color: white !important;
+  width: 51px !important;
+  height: 58px !important;
+}
+
+.slick-next {
+  right: -59px !important;
+}
+
+.slick-prev {
+  left: -59px !important;
+}
+
+.leverageHold{
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.o{
+  width: 100% !important;
+}
+
+.white{
+  color: white !important;
+}
+
+
+@media(max-width:600px) {
+
+
+  .speechHold {
+    max-width: 51% !important;
+    top: -43rem !important;
+    width: 54% !important;
+  }
+
+  .bubbleContentHold {
+    top: -48.1rem !important;
+    margin-left: -0.5rem;
+
+  }
+
+  .w20rem {
+    width: 17rem !important;
+    height: 24rem !important;
+    position: relative;
+    top: 13rem;
+    left: 1.5rem !important;
+
+  }
+
+  .bubble {
+    width: 9rem !important;
+    height: 7rem !important;
+    position: relative;
+
+  }
+
+  .airbnbIntroHold {
+    top: 12rem;
+
+  }
+
+  .web {
+    width: 1.7rem;
+    height: 1.7rem !important;
+    margin-top: 0.4rem;
+  }
+
+  .contact {
+    top: 14rem;
+  }
+
+  .project .nav.nav-pills {
+    width: 112% !important;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+    left: -1rem;
+    position: relative;
+  }
+
+
+}
+
+@media(max-width:1040px) {
+  .ccc {
+    flex-direction: column !important;
+  }
+}
