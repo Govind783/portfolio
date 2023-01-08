@@ -2,9 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-My portfolio wesbite built using react and boootstrap.
+My portfolio wesbite built using react, boootstrap and tailwind.
 
-In the /personal-portfolio, you can run:
 
 ### `npm start`
 
