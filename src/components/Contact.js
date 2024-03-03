@@ -18,7 +18,7 @@ export const Contact = () => {
   const [buttonText, setButtonText] = useState('Send');
   const [loading, setLoading] = useState(false);
 
-  const [state, handleSubmit] = useForm("xoqzayob");
+  const [state, handleSubmit] = useForm("<your formspree id>");
 
   const onFormUpdate = (category, value) => {
     setFormDetails({
